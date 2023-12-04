@@ -1,0 +1,916 @@
+/* start make the general styles */
+
+:root {
+  --main-color: #1c344c;
+  --sec-color: #52c3d6;
+  --light-sec-color: rgba(82, 195, 214, 0.25);
+}
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* start making the home sec */
+.out-logo {
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 180px;
+  font-style: normal;
+  position: absolute;
+  top: -100px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #dedede 0%, rgba(255, 255, 255, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.thelogo {
+  position: relative;
+  left: 150px;
+}
+
+.arabic {
+  color: #1c344c;
+  font-family: Tajawal;
+  font-size: 22px;
+  font-weight: 500;
+}
+.dark-mode {
+  width: 60px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #1c344c;
+  box-shadow: 9px 7px 13px 0px rgba(0, 0, 0, 0.11);
+  cursor: pointer;
+}
+.iconn {
+  width: 20px;
+  height: 20px;
+}
+.lets-talk {
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(261deg, #941225 -4.57%, #eb2f4a 99.03%);
+  color: #fff;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+.mid-sec {
+  margin-top: 150px;
+}
+.small-images img {
+  width: 210px;
+  height: 52px;
+  flex-shrink: 0;
+}
+.small-images {
+  margin-bottom: 50px;
+}
+.big-content p {
+  width: 878px;
+  color: var(--main-color);
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5.04px;
+  text-transform: uppercase;
+}
+.apps {
+  color: #52c3d6;
+  font-family: Space Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5.04px;
+  text-transform: uppercase;
+  border: 1px soild red;
+}
+.that-users {
+  color: #1c344c;
+  font-family: Space Grotesk;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6.825px;
+  text-transform: uppercase;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+.linee {
+  top: -5px;
+}
+.small-content p {
+  color: #000;
+  text-align: center;
+  font-family: Red Hat Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.circle-content {
+  width: 153px;
+  height: 153px;
+  flex-shrink: 0;
+  background: url(../images/circle.png), 50% center / cover no-repeat white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 60px;
+}
+
+.vid-icon {
+  background-color: var(--sec-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.last-shape {
+  height: 100px;
+  transform: rotate(3.737deg);
+  flex-shrink: 0;
+  background: var(--main-color);
+  box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 3000px;
+  margin-top: 80px;
+}
+.last-shape p {
+  color: #fff;
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.rating-nums {
+  border-bottom: 1px solid rgba(28, 52, 76, 0.1);
+}
+.rate {
+  color: var(--sec-color);
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.des {
+  color: #1c344c;
+  font-family: Red Hat Display;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ratess {
+  border-right: 1px solid rgba(28, 52, 76, 0.1);
+}
+
+.unique-box {
+  padding: 70px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid rgba(28, 52, 76, 0.1);
+}
+.bac-icon {
+  width: 85px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 42.5px;
+  background: rgba(255, 189, 78, 0.25);
+  margin-bottom: 15px;
+}
+.unique-box h3 {
+  color: var(--main-color);
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.unique-box p {
+  color: var(--main-color);
+  text-align: center;
+  font-family: Red Hat Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 281px;
+}
+
+.sec-one {
+  border-radius: 10px;
+  background: #1c344c;
+}
+.sec-one-icon {
+  width: 85px;
+  height: 85px;
+  flex-shrink: 0;
+  border-radius: 42.5px;
+  background: rgba(235, 47, 74, 0.25);
+  margin-bottom: 15px;
+}
+.sec-one h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.sec-one p {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-family: Red Hat Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 299px;
+}
+.third-one-icon {
+  width: 85px;
+  height: 85px;
+  flex-shrink: 0;
+  border-radius: 42.5px;
+  background: rgba(82, 195, 214, 0.25);
+}
+.theimglayer {
+  width: 221px;
+  height: 221px;
+  position: absolute;
+  flex-shrink: 0;
+  background-image: url(../images/Layer\ 2\ 1.png);
+  bottom: -33px;
+  right: -39px;
+}
+
+/* start styling the about us section */
+.aboutUs {
+  margin-top: 40px;
+  border-radius: 20px;
+  background: url("../images/aboutus.png"),
+    rgba(211, 211, 211, 0.189) 50% / cover no-repeat;
+  background-position: center;
+}
+.aboutUs .row {
+  backdrop-filter: blur(20px);
+}
+.sec-about h4 {
+  color: var(--sec-color);
+  text-align: start;
+  font-family: Space Grotesk;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.sec-about h3 {
+  color: #292d32;
+  font-family: Space Grotesk;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.532%;
+}
+.sec-about p {
+  color: #000;
+  font-family: Red Hat Display;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sec-about ul li {
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.circless {
+  width: 551.68px;
+  height: 115.885px;
+  transform: rotate(28.881deg);
+  flex-shrink: 0;
+  border-radius: 551.68px;
+  border: 1px solid #000;
+}
+
+/* start delevering section */
+.delevering {
+  margin-top: 60px;
+}
+.delevering h2,
+.port-head {
+  color: var(--sec-color);
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.delevering p {
+  color: #292d32;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.532%;
+}
+.cards {
+  justify-content: center;
+  gap: 10px;
+}
+.cards .card {
+  width: 180px;
+  height: 110px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 7px 6px 17px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.card img {
+  width: 59.681px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.creative-info h5 {
+  color: var(--sec-color);
+  font-family: Space Grotesk;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.creative-info h3 {
+  color: #292d32;
+  font-family: Space Grotesk;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.532%;
+}
+.development {
+  position: relative;
+  color: #52c3d6;
+  font-family: Space Grotesk;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.532%;
+  padding: 15px;
+}
+.development::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: -9px;
+  left: 0;
+  height: 2px;
+  background-color: var(--main-color);
+}
+
+.theThreeSkills {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 255, 255, 0) 0%,
+    #fff 100%
+  );
+}
+.skills {
+  border-bottom: 1px solid rgba(28, 52, 76, 0.1);
+}
+.DigitalMarketing,
+.CreativeDesign {
+  color: #8f8f8f;
+  text-align: right;
+  font-family: Space Grotesk;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.532%;
+}
+
+.unique-creative {
+  padding: 70px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.unique-creative h3 {
+  color: #000;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.532%;
+}
+.unique-creative p {
+  color: rgba(28, 52, 76, 0.7);
+  text-align: center;
+  font-family: Red Hat Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.unique-creative .creative-icon {
+  width: 85px;
+  height: 85px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: rgba(82, 195, 214, 0.25);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.apple {
+  border-radius: 10px;
+  background: #1c344c;
+  box-shadow: 7px 6px 17px 4px rgba(0, 0, 0, 0.03);
+}
+.apple h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.532%; /* 20.506px */
+}
+.apple p {
+  color: #fff;
+  text-align: center;
+  font-family: Red Hat Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.php h3 {
+  color: #000;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.532%;
+}
+.myshadow {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 7px 6px 17px 4px rgba(0, 0, 0, 0.03);
+}
+.filterrr {
+  backdrop-filter: blur(15px);
+}
+
+/* start portfolio section */
+.port-filter {
+  border-radius: 35px;
+  background: url("../images/aboutus.png"),
+    rgba(211, 211, 211, 0.189) 100% / cover no-repeat;
+  background-position: bottom;
+}
+.port-info p,
+.port-info .slashh {
+  color: #cdcdcd;
+  font-family: Space Grotesk;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.532%;
+}
+.port-info span {
+  color: #cdcdcd;
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.box-port .sec-font {
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.532%;
+}
+.box-port .last-one {
+  color: #52c3d6;
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.box-port:not(:last-child) {
+  border-bottom: 1px solid #dbdbdb;
+}
+.arroww {
+  width: 86.477px;
+  height: 86.477px;
+  transform: rotate(-48.669deg);
+  flex-shrink: 0;
+  position: absolute;
+  background-color: #52c3d6;
+  border-radius: 100%;
+  top: 73px;
+  right: 0;
+}
+.arroww i {
+  font-size: 30px;
+  color: white;
+  transform: rotate(-262.741deg);
+}
+.big-photo {
+  background: url("../images/[CITYPNG\ 1.png"),
+    rgba(211, 211, 211, 0) 100% / cover no-repeat;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 688px;
+  position: relative;
+  bottom: -230px;
+  right: -60px;
+}
+
+/* start styluing the partener sec */
+.partener .container h3 {
+  color: #52c3d6;
+  font-family: Space Grotesk;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.logooos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.ads-back-ground {
+  border-radius: 35px;
+  background: radial-gradient(50% 50% at 50% 50%, #345d86 0%, #1c344c 100%);
+}
+.ads-info h3 {
+  color: #52c3d6;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.ads-info p {
+  color: #fff;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.532%;
+}
+.ads-info img {
+  position: relative;
+  bottom: -85px;
+}
+
+/* start stylint the story section */
+.testimonials {
+  color: var(--sec-color);
+  font-family: Space Grotesk;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.first-story p {
+  color: #1c344c;
+  font-family: Space Grotesk;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  width: 274px;
+  line-height: 102.532%;
+  text-align: start;
+}
+.first-story {
+  width: 25%;
+  text-align: start;
+}
+.sec-story {
+  width: 25%;
+  border-radius: 35px;
+  background: radial-gradient(50% 50% at 50% 50%, #345d86 0%, #1c344c 100%);
+}
+.sec-story .great-company {
+  color: #fff;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.sec-story .dico {
+  color: #fff;
+  font-family: Red Hat Display;
+  font-size: 14.239px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.285px;
+}
+.sec-story h3 {
+  color: #fff;
+  font-family: Red Hat Display;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.sec-story h5 {
+  color: #b9b9b9;
+  font-family: Red Hat Display;
+  font-size: 12.24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.quote_icon {
+  position: absolute;
+  bottom: 28px;
+  left: 6px;
+}
+.box-story {
+  width: 25%;
+}
+
+.our-team {
+  margin-top: 90px;
+}
+.the-out-logo {
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 170px;
+  font-style: normal;
+  position: absolute;
+  top: -80px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #dedede 0%, rgba(255, 255, 255, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.the-name-person {
+  color: #292d32;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.532%;
+}
+.the-work {
+  color: var(--sec-color);
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+/* start styling map sec */
+.map-sec {
+  margin-top: 120px;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+.inputs-container {
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  background: url("../images/Rectangle\ 32.png"),
+    lightgray 50% / contain no-repeat;
+}
+.inputs-container {
+  backdrop-filter: blur(10px);
+}
+.SubscribeNewsletter {
+  color: #1c344c;
+  font-family: Red Hat Display;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.theinputt {
+  width: 510px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+  position: relative;
+}
+.theinputt input {
+  padding: 15px;
+  width: 510px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+}
+.theinputt button {
+  width: 180px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: linear-gradient(261deg, #941225 -4.57%, #eb2f4a 99.03%);
+  border: none;
+  color: #f4f4f4;
+  text-align: center;
+  font-family: Red Hat Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  position: absolute;
+  top: 8px;
+  right: 6px;
+}
+.our-links-section {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px dotted black;
+  padding-bottom: 15px;
+}
+.our-links-section ul li {
+  color: #1c344c;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+#home-active {
+  color: #52c3d6;
+}
+footer {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+.content-footer {
+  color: #1c344c;
+  font-family: Space Grotesk;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/* start designing the microphone */
+.heart {
+  position: absolute;
+  right: 87px;
+  top: 26px;
+}
+
+.lashare {
+  position: absolute;
+  right: 0;
+  top: 45px;
+}
+
+.vid-iconn {
+  position: absolute;
+  right: 23px;
+  top: 155px;
+}
+.the-place-icon {
+  position: absolute;
+  right: 0;
+  top: 225px;
+}
+.black-cir {
+  position: absolute;
+  top: 70px;
+}
+.blue-cir {
+  position: absolute;
+  top: 124px;
+  left: 58px;
+}
+.big-star {
+  position: absolute;
+  top: 338px;
+}
+.small-star {
+  position: absolute;
+  top: 447px;
+  left: 281px;
+}
+.last-cir {
+  position: absolute;
+  right: -90px;
+  top: -21px;
+}
+
+.aboutUs #first-skew {
+  position: absolute;
+  top: 100px;
+  left: 120px;
+}
+.the-face-mic {
+  position: absolute;
+  top: 98px;
+  left: 230px;
+}
+.the-face-top {
+  position: absolute;
+}
